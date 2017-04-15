@@ -1,0 +1,25 @@
+{
+  "name": "raspi-birthday",
+  "version": "1.0.0",
+  "description": "A little birthday project for Raspi IO!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebrius/raspi-birthday.git"
+  },
+  "author": "Bryan Hughes <bryan@nebri.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nebrius/raspi-birthday/issues"
+  },
+  "homepage": "https://github.com/nebrius/raspi-birthday#readme",
+  "dependencies": {
+    "johnny-five": "^0.10.8",
+    "raspi-io": "^7.3.1",
+    "oled-js": "^4.0.2",
+    "oled-font-5x7": "^1.0.0"
+  }
+}

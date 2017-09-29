@@ -2,6 +2,8 @@
 
 A little birthday project for Raspi IO!
 
+![](./raspi-birthday.gif)
+
 ## License
 
 MIT License

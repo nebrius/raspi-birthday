@@ -88,6 +88,10 @@ board.on('ready', () => {
     address: 0x3C
   });
   oled.fillRect(0, 0, 128, 64, 0);
-  oled.setCursor(1, 1);
-  oled.writeString(font, 1, 'Happy 3rd Birthday Raspi IO!!!', 1, true, 2);
+  oled.setCursor(28, 1);
+  oled.writeString(font, 1, 'Happy Third', 1, true, 2);
+  oled.setCursor(38, 15);
+  oled.writeString(font, 1, 'Birthday', 1, true, 2);
+  oled.setCursor(30, 30);
+  oled.writeString(font, 1, 'Raspi IO!!!', 1, true, 2);
 });
